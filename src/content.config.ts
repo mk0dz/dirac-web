@@ -36,14 +36,17 @@ const socials = defineCollection({
   })
 });
 
+
 const workExperience = defineCollection({
   loader: file("src/content/work.json"),
   schema: z.object({
     id: z.number(),
+    name: z.string(),
     title: z.string(),
-    company: z.string(),
+    organization: z.string(),
     duration: z.string(),
     description: z.string(),
+    contact: z.string().url(),
   })
 });
 
@@ -87,4 +90,4 @@ const projects = defineCollection({
   })
 });
 
-export const collections = { tags, posts, projects, other, quickInfo, socials, workExperience };
+export const collections = { tags, posts, projects, other, quickInfo, socials, workExperience};

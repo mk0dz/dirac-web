@@ -42,6 +42,9 @@ importers:
       '@biomejs/biome':
         specifier: 1.9.4
         version: 1.9.4
+      '@iconify/json':
+        specifier: ^2.2.339
+        version: 2.2.339
       pagefind:
         specifier: ^1.3.0
         version: 1.3.0
@@ -332,6 +335,9 @@ packages:
 
   '@iconify-json/simple-icons@1.2.18':
     resolution: {integrity: sha512-ae4ig7fxNXME1wl5og7Ocp82TM4jyz6IsOyI8GrteSbvHR9gaPu2Z01Amn5V/xo1Y7A7/+EH/3Ovpy2az/gYbg==}
+
+  '@iconify/json@2.2.339':
+    resolution: {integrity: sha512-8p+IZcJuic2CW8saJb6bktV5Tl0G4QqnhLfaof1v9hFpMI3KVSv8isN198Wu5sDVdFGAzXJ8uDsNEUyc6W1VDg==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -2130,6 +2136,11 @@ snapshots:
   '@iconify-json/simple-icons@1.2.18':
     dependencies:
       '@iconify/types': 2.0.0
+
+  '@iconify/json@2.2.339':
+    dependencies:
+      '@iconify/types': 2.0.0
+      pathe: 1.1.2
 
   '@iconify/types@2.0.0': {}
 

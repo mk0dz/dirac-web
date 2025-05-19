@@ -74,7 +74,7 @@ class PageBackground {
    * Sets up the background canvases. The text is decided based on the title of the page.
    */
   private initBackground = () => {
-    let text: string = document.title.toLowerCase().split(' | ')[0].replace(/\s/g, '_') || 'spectre';
+    let text: string = document.title.toLowerCase().split(' | ')[0].replace(/\s/g, '_') || 'dirac';
 
     // Add additional underscore to separate words
     if (text.includes("_")) {

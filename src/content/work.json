@@ -1,9 +1,11 @@
 [
   {
     "id": 1,
-    "duration": "2024 - present",
-    "company": "Astro Community",
-    "title": "Astro Theme",
-    "description": "Existing as an Astro theme for anyone to use."
+    "name": "Mukul kumar",
+    "duration": "2025 - present",
+    "organization": "Dirac",
+    "title": "Founder",
+    "description": "Dirac is a community-driven organization that builds and supports the Dirac project.",
+    "contact": "https://mk.dirac.fun"
   }
 ]

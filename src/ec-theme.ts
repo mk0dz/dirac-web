@@ -1,9 +1,9 @@
 import githubDark from '@shikijs/themes/github-dark';
 import type { ThemeRegistration } from 'shiki';
 
-const spectreDark: ThemeRegistration = {
+const diracDark: ThemeRegistration = {
   ...githubDark,
-  name: 'Spectre Dark',
+  name: 'dirac Dark',
   colors: {
     ...githubDark.colors,
     "activityBar.background": "#303030",
@@ -17,4 +17,4 @@ const spectreDark: ThemeRegistration = {
   }
 };
 
-export { spectreDark };
+export { diracDark };

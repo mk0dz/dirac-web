@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
+    "@iconify/json": "^2.2.339",
     "pagefind": "^1.3.0",
     "shiki": "^1.26.1"
   }

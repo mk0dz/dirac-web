@@ -93,7 +93,7 @@ export const optionsSchema = z.object({
        */
       emitMetadata: z.boolean(),
       /**
-       * The theme to use for the comments. Defaults to `https://spectre.louisescher.dev/styles/giscus`.
+       * The theme to use for the comments. Defaults to `https://dirac.louisescher.dev/styles/giscus`.
        */
       theme: z.string().optional(),
       /**
@@ -120,7 +120,7 @@ export const optionsSchema = z.object({
 export default function integration(options: z.infer<typeof optionsSchema>): AstroIntegration {
   const validatedOptions = optionsSchema.parse(options);
 
-	const globals = viteVirtualModulePluginBuilder('spectre:globals', 'spectre-theme-globals', `
+	const globals = viteVirtualModulePluginBuilder('dirac:globals', 'dirac-theme-globals', `
     export const name = ${JSON.stringify(validatedOptions.name)};
     export const themeColor = ${JSON.stringify(validatedOptions.themeColor ?? '#8c5cf5')};
     export const twitterHandle = ${JSON.stringify(validatedOptions.twitterHandle)};
@@ -133,7 +133,7 @@ export default function integration(options: z.infer<typeof optionsSchema>): Ast
   `);
 
 	return {
-		name: 'spectre-theme',
+		name: 'dirac-theme',
 		hooks: {
 			'astro:config:setup': ({ updateConfig }) => {
 				updateConfig({

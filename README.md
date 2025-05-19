@@ -1,23 +1,23 @@
-![Spectre, a terminal-inspired theme for Astro.](./images/README.png)
+![dirac, a terminal-inspired theme for Astro.](./images/README.png)
 
-Spectre is a terminal-inspired theme for Astro, built using TypeScript and Astro.
+dirac is a terminal-inspired theme for Astro, built using TypeScript and Astro.
 
 ## Getting Started
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/louisescher/spectre/tree/main)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/louisescher/spectre/tree/main)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/louisescher/dirac/tree/main)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/louisescher/dirac/tree/main)
 
-Alternatively, you can create a new Astro project with Spectre like this:
+Alternatively, you can create a new Astro project with dirac like this:
 
 ```bash
 # pnpm
-pnpm create astro@latest -- --template louisescher/spectre
+pnpm create astro@latest -- --template louisescher/dirac
 
 # pnpm
-pnpm create astro@latest --template louisescher/spectre
+pnpm create astro@latest --template louisescher/dirac
 
 # yarn
-yarn create astro --template louisescher/spectre
+yarn create astro --template louisescher/dirac
 ```
 
 ## Features
@@ -35,8 +35,8 @@ yarn create astro --template louisescher/spectre
 
 ## Curious?
 
-Head over to [the preview page](https://spectre.louisescher.dev) to find out more!
+Head over to [the preview page](https://dirac.louisescher.dev) to find out more!
 
-### Spectre Integration
+### dirac Integration
 
-If you want to know more about how the custom integration that is used in the `astro.config.ts` file works, head over to the [integration's own README](https://github.com/louisescher/spectre/tree/master/package)!
+If you want to know more about how the custom integration that is used in the `astro.config.ts` file works, head over to the [integration's own README](https://github.com/louisescher/dirac/tree/master/package)!
