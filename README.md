@@ -1,42 +1,99 @@
-![dirac, a terminal-inspired theme for Astro.](./images/README.png)
+# Dirac Web
 
-dirac is a terminal-inspired theme for Astro, built using TypeScript and Astro.
+A modern web application built with [Astro](https://astro.build), featuring a clean and efficient architecture.
 
-## Getting Started
+## 🚀 Features
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/louisescher/dirac/tree/main)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/louisescher/dirac/tree/main)
+- Built with Astro 5.x
+- MDX support for content
+- Sitemap generation
+- Server-side rendering with Node.js
+- Expressive code highlighting
+- Search functionality with Pagefind
+- Icon support with Iconify
+- TypeScript support
+- Biome for code formatting and linting
 
-Alternatively, you can create a new Astro project with dirac like this:
+## 📦 Prerequisites
 
+- Node.js (Latest LTS version recommended)
+- pnpm 9.15.0 or later
+
+## 🛠️ Installation
+
+1. Clone the repository:
 ```bash
-# pnpm
-pnpm create astro@latest -- --template louisescher/dirac
-
-# pnpm
-pnpm create astro@latest --template louisescher/dirac
-
-# yarn
-yarn create astro --template louisescher/dirac
+git clone [repository-url]
+cd dirac-web
 ```
 
-## Features
+2. Install dependencies:
+```bash
+pnpm install
+```
 
-- 100 / 100 Lighthouse performance
-- Responsive for all screen sizes
-- Fully accessible
-- Type-Safe
-- Auto-generated sitemap
-- Markdown / MDX Support
-- Builds on content collections
-- Search powered by [pagefind](https://pagefind.app)
-- Comments powered by [giscus](https://giscus.app) (can be turned off)
-- More!
+## 🏃‍♂️ Development
 
-## Curious?
+To start the development server:
 
-Head over to [the preview page](https://dirac.louisescher.dev) to find out more!
+```bash
+pnpm dev
+```
 
-### dirac Integration
+The development server will start at `http://localhost:4321` by default.
 
-If you want to know more about how the custom integration that is used in the `astro.config.ts` file works, head over to the [integration's own README](https://github.com/louisescher/dirac/tree/master/package)!
+## 🏗️ Building
+
+To build the project for production:
+
+```bash
+pnpm build
+```
+
+This will:
+1. Build the Astro project
+2. Generate a sitemap
+3. Create a search index with Pagefind
+
+## 🚀 Production
+
+To start the production server:
+
+```bash
+pnpm start
+```
+
+## 📁 Project Structure
+
+```
+dirac-web/
+├── src/
+│   ├── assets/      # Static assets
+│   ├── components/  # Reusable components
+│   ├── content/     # MDX content
+│   ├── layouts/     # Page layouts
+│   ├── pages/       # Route pages
+│   ├── scripts/     # Utility scripts
+│   └── styles/      # Global styles
+├── public/          # Public assets
+├── dist/           # Build output
+└── package/        # Package files
+```
+
+## 🛠️ Technology Stack
+
+- **Framework**: Astro 5.x
+- **Content**: MDX
+- **Styling**: CSS
+- **Icons**: Iconify (Lucide & Simple Icons)
+- **Code Formatting**: Biome
+- **Search**: Pagefind
+- **Package Manager**: pnpm
+
+## 📝 License
+
+[Add your license information here]
+
+## 🤝 Contributing
+
+[Add contribution guidelines here]
