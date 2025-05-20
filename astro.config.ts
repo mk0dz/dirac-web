@@ -5,7 +5,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import dirac from './package/src';
 
-import node from '@astrojs/node';
+import vercel from '@astrojs/vercel';
 import { diracDark } from './src/ec-theme';
 
 // https://astro.build/config
@@ -35,18 +35,17 @@ export default defineConfig({
       },
       giscus: {
         repository: 'mk0dz/dirac',
-        repositoryId: 'R_kgDONjm3ig',
+        repositoryId: 'R_kgDOOs3_nA',
         category: 'General',
-        categoryId: 'DIC_kwDONjm3is4ClmBF',
+        categoryId: 'DIC_kwDOOs3_nM4CqWr2',
         mapping: 'pathname',
         strict: true,
         reactionsEnabled: true,
         emitMetadata: false,
         lang: 'en',
+        theme: 'gruvbox_light',
       }
     })
   ],
-  adapter: node({
-    mode: 'standalone'
-  })
+  adapter: vercel()
 });
